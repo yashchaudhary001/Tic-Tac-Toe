@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #DFE8DB;
+}
+
+h1 {
+    text-align: center;
+    color: #A28825;
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: underline 3px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52vh;
+    width: 54vw;
+    margin: 50px auto;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+}
+
+.btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 0.9rem;
+    border: none;
+    padding: 5px;
+    box-shadow: -1px -1px 2px black;
+    background-color: #D1C6E9;
+    font-size: 50px;
+    color: #86762F;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+}
+
+#reset-btn {
+    padding: 3px;
+    margin: 2px;
+    border-radius: 0.4rem;
+    background-color: #646464;
+    color: #FAFAFA;
+    border: none;
+}
+
+.msg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+#msg {
+    font-size: 38px;
+    color: #646464;
+}
+
+#restart-btn {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #907cba;
+    color: #FAFAFA;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hide{
+    display:none;
+}
